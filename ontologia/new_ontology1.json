@@ -1,0 +1,791 @@
+{
+  "_comment": "Empty ontology for WebVOWL Editor [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
+  "header": {
+    "languages": [
+      "en"
+    ],
+    "baseIris": [
+      "http://www.w3.org/2000/01/rdf-schema"
+    ],
+    "iri": "http://visualdataweb.org/newOntology/",
+    "title": {
+      "en": "New ontology"
+    },
+    "description": {
+      "en": "New ontology description"
+    }
+  },
+  "namespace": [],
+  "settings": {
+    "global": {
+      "zoom": "0.62",
+      "translation": [
+        258.31,
+        160.31
+      ],
+      "paused": true
+    },
+    "gravity": {
+      "classDistance": 200,
+      "datatypeDistance": 120
+    },
+    "filter": {
+      "checkBox": [
+        {
+          "id": "datatypeFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "objectPropertyFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "subclassFilterCheckbox",
+          "checked": false
+        },
+        {
+          "id": "disjointFilterCheckbox",
+          "checked": true
+        },
+        {
+          "id": "setoperatorFilterCheckbox",
+          "checked": false
+        }
+      ],
+      "degreeSliderValue": "0"
+    },
+    "modes": {
+      "checkBox": [
+        {
+          "id": "pickandpinModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "nodescalingModuleCheckbox",
+          "checked": true
+        },
+        {
+          "id": "compactnotationModuleCheckbox",
+          "checked": false
+        },
+        {
+          "id": "colorexternalsModuleCheckbox",
+          "checked": true
+        }
+      ],
+      "colorSwitchState": false
+    }
+  },
+  "class": [
+    {
+      "id": "Class1",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class2",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class3",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class4",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class5",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class6",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class7",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class8",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class9",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class10",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class11",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class12",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class13",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class14",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class15",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class16",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class17",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class18",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class19",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class20",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class21",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class22",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class23",
+      "type": "owl:Class"
+    },
+    {
+      "id": "Class24",
+      "type": "owl:Class"
+    }
+  ],
+  "classAttribute": [
+    {
+      "id": "Class1",
+      "iri": "http://visualdataweb.org/newOntology/кафедра",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "сайти кафедри",
+      "pos": [
+        109.4,
+        318.46
+      ]
+    },
+    {
+      "id": "Class2",
+      "iri": "http://visualdataweb.org/newOntology/krnu.org",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "krnu.org",
+      "pos": [
+        114.89,
+        145.33
+      ]
+    },
+    {
+      "id": "Class3",
+      "iri": "http://visualdataweb.org/newOntology/маэ_дисциплыни",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "маэ дисципліни",
+      "pos": [
+        126.11,
+        -32.55
+      ]
+    },
+    {
+      "id": "Class4",
+      "iri": "http://visualdataweb.org/newOntology/інші_дисципліни",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "інші дисципліни",
+      "pos": [
+        291.17,
+        -32.55
+      ]
+    },
+    {
+      "id": "Class5",
+      "iri": "http://visualdataweb.org/newOntology/Спецкурс\"інорматика\"",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Спецкурс\"інформатика\"",
+      "pos": [
+        39.57,
+        -170.37
+      ]
+    },
+    {
+      "id": "Class6",
+      "iri": "http://visualdataweb.org/newOntology/Вища_математик",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Вища математика",
+      "pos": [
+        230.11,
+        -164.65
+      ]
+    },
+    {
+      "id": "Class7",
+      "iri": "http://visualdataweb.org/newOntology/",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "kduu.edu.ua",
+      "pos": [
+        313.61,
+        187
+      ]
+    },
+    {
+      "id": "Class8",
+      "iri": "http://visualdataweb.org/newOntology/інформаційний_розділ",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "інформаційний розділ",
+      "pos": [
+        420.98,
+        49.18
+      ]
+    },
+    {
+      "id": "Class9",
+      "iri": "http://visualdataweb.org/newOntology/для_студентів",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "для студентів",
+      "pos": [
+        555.53,
+        126.54
+      ]
+    },
+    {
+      "id": "Class10",
+      "iri": "http://visualdataweb.org/newOntology/головна",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "головна",
+      "pos": [
+        419.37,
+        -167.17
+      ]
+    },
+    {
+      "id": "Class11",
+      "iri": "http://visualdataweb.org/newOntology/кафедра_",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "кафедра_",
+      "pos": [
+        553.99,
+        -123.9
+      ]
+    },
+    {
+      "id": "Class12",
+      "iri": "http://visualdataweb.org/newOntology/студеннтам",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "студеннтам",
+      "pos": [
+        767.13,
+        31.55
+      ]
+    },
+    {
+      "id": "Class13",
+      "iri": "http://visualdataweb.org/newOntology/дисципліни",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "дисципліни",
+      "pos": [
+        755.91,
+        161.36
+      ]
+    },
+    {
+      "id": "Class14",
+      "iri": "http://visualdataweb.org/newOntology/конференція",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "конференція",
+      "pos": [
+        744.7,
+        -167.17
+      ]
+    },
+    {
+      "id": "Class15",
+      "iri": "http://visualdataweb.org/newOntology/контакти",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "контакти",
+      "pos": [
+        699.82,
+        -56.59
+      ]
+    },
+    {
+      "id": "Class16",
+      "iri": "http://visualdataweb.org/newOntology/математика.укр",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "математика.укр",
+      "pos": [
+        312,
+        382.51
+      ]
+    },
+    {
+      "id": "Class17",
+      "iri": "http://visualdataweb.org/newOntology/інформаційний_розділ.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "інформаційний розділ.",
+      "pos": [
+        504.31,
+        310.4
+      ]
+    },
+    {
+      "id": "Class18",
+      "iri": "http://visualdataweb.org/newOntology/для_студентів.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "для студентів.",
+      "pos": [
+        187,
+        517.13
+      ]
+    },
+    {
+      "id": "Class19",
+      "iri": "http://visualdataweb.org/newOntology/головна.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "головна.",
+      "pos": [
+        773.54,
+        318.41
+      ]
+    },
+    {
+      "id": "Class20",
+      "iri": "http://visualdataweb.org/newOntology/розділи",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "розділи",
+      "pos": [
+        831.23,
+        457.83
+      ]
+    },
+    {
+      "id": "Class21",
+      "iri": "http://visualdataweb.org/newOntology/курси",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "курси",
+      "pos": [
+        449.82,
+        552.38
+      ]
+    },
+    {
+      "id": "Class22",
+      "iri": "http://visualdataweb.org/newOntology/олімпіади",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "олімпіади",
+      "pos": [
+        372.9,
+        667.77
+      ]
+    },
+    {
+      "id": "Class23",
+      "iri": "http://visualdataweb.org/newOntology/студенту",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "студенту",
+      "pos": [
+        211.04,
+        674.18
+      ]
+    },
+    {
+      "id": "Class24",
+      "iri": "http://visualdataweb.org/newOntology/корисно.",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "корисно.",
+      "pos": [
+        638.93,
+        489.88
+      ]
+    }
+  ],
+  "property": [
+    {
+      "id": "objectProperty1",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty2",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty3",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty4",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty5",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty7",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty9",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty11",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty10",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty12",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty13",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty14",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty15",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty16",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty17",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty18",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty19",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty20",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty21",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty22",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty23",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty24",
+      "type": "rdfs:subClassOf"
+    },
+    {
+      "id": "objectProperty25",
+      "type": "rdfs:subClassOf"
+    }
+  ],
+  "propertyAttribute": [
+    {
+      "id": "objectProperty1",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class2",
+      "range": "Class3",
+      "pos": [
+        120.5,
+        56.39
+      ]
+    },
+    {
+      "id": "objectProperty2",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class1",
+      "range": "Class2",
+      "pos": [
+        112.14,
+        231.9
+      ]
+    },
+    {
+      "id": "objectProperty3",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class2",
+      "range": "Class4",
+      "pos": [
+        203.03,
+        56.39
+      ]
+    },
+    {
+      "id": "objectProperty4",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class3",
+      "range": "Class5",
+      "pos": [
+        82.84,
+        -101.46
+      ]
+    },
+    {
+      "id": "objectProperty5",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class3",
+      "range": "Class6",
+      "pos": [
+        178.11,
+        -98.6
+      ]
+    },
+    {
+      "id": "objectProperty7",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class1",
+      "range": "Class7",
+      "pos": [
+        211.5,
+        252.73
+      ]
+    },
+    {
+      "id": "objectProperty9",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class7",
+      "range": "Class8",
+      "pos": [
+        367.29,
+        118.09
+      ]
+    },
+    {
+      "id": "objectProperty11",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class10",
+      "pos": [
+        420.18,
+        -58.99
+      ]
+    },
+    {
+      "id": "objectProperty10",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class7",
+      "range": "Class9",
+      "pos": [
+        434.57,
+        156.77
+      ]
+    },
+    {
+      "id": "objectProperty12",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class11",
+      "pos": [
+        487.48,
+        -37.36
+      ]
+    },
+    {
+      "id": "objectProperty13",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class9",
+      "range": "Class12",
+      "pos": [
+        661.33,
+        79.04
+      ]
+    },
+    {
+      "id": "objectProperty14",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class9",
+      "range": "Class13",
+      "pos": [
+        655.72,
+        143.95
+      ]
+    },
+    {
+      "id": "objectProperty15",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class14",
+      "pos": [
+        582.84,
+        -58.99
+      ]
+    },
+    {
+      "id": "objectProperty16",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class8",
+      "range": "Class15",
+      "pos": [
+        560.4,
+        -3.71
+      ]
+    },
+    {
+      "id": "objectProperty17",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class1",
+      "range": "Class16",
+      "pos": [
+        210.7,
+        350.49
+      ]
+    },
+    {
+      "id": "objectProperty18",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class16",
+      "range": "Class17",
+      "pos": [
+        408.16,
+        346.46
+      ]
+    },
+    {
+      "id": "objectProperty19",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class16",
+      "range": "Class18",
+      "pos": [
+        249.5,
+        449.82
+      ]
+    },
+    {
+      "id": "objectProperty20",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class17",
+      "range": "Class19",
+      "pos": [
+        638.93,
+        314.4
+      ]
+    },
+    {
+      "id": "objectProperty21",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class17",
+      "range": "Class20",
+      "pos": [
+        667.77,
+        384.12
+      ]
+    },
+    {
+      "id": "objectProperty22",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class21",
+      "pos": [
+        318.41,
+        534.76
+      ]
+    },
+    {
+      "id": "objectProperty23",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class22",
+      "pos": [
+        279.95,
+        592.45
+      ]
+    },
+    {
+      "id": "objectProperty24",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class18",
+      "range": "Class23",
+      "pos": [
+        199.02,
+        595.65
+      ]
+    },
+    {
+      "id": "objectProperty25",
+      "iri": "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+      "baseIri": "http://visualdataweb.org/newOntology/",
+      "label": "Subclass of",
+      "domain": "Class17",
+      "range": "Class24",
+      "pos": [
+        571.62,
+        400.14
+      ]
+    }
+  ]
+}
